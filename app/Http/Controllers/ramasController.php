@@ -10,7 +10,7 @@ class ramasController extends Controller
 {
     const columnas = array(
     		0 => array(
-    			'size'=>"col-md-4",
+    			'size'=>"col-md-3",
     			'name'=>"Nombre",
     			'id'=>0
     		),
@@ -25,12 +25,12 @@ class ramasController extends Controller
     			'id'=>2
     		),
     		3 =>array(
-    			'size'=>"col-md-1",
+    			'size'=>"col-md-2",
     			'name'=>"Fecha de Inicio de Inscripcion",
     			'id'=>3
     		),
     		4 =>array(
-    			'size'=>"col-md-1",
+    			'size'=>"col-md-2",
     			'name'=>"Fecha de Fin de Inscripcion",
     			'id'=>4
     		),
@@ -40,12 +40,7 @@ class ramasController extends Controller
     			'id'=>5
     		),
     		6 =>array(
-    			'size'=>"col-md-1",
-    			'name'=>"Fotos",
-    			'id'=>6
-    		),
-    		7 =>array(
-    			'size'=>"col-md-1",
+    			'size'=>"col-md-2",
     			'name'=>"",
     			'id'=>7
     		),

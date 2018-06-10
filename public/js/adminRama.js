@@ -66,9 +66,10 @@
         var rama=ramas[index];
         editIndex=index;
         editNombre.value=rama.nombre;
-        editEdadMinima.value=rama.edad_maxima;
-        editEdadMaxima.value=rama.edad_maxima;
         editFechaInicio.value=rama.fechaInscripcion_inicio;
         editFechaFin.value=rama.fechaIscripcion_fin;
-        editTipo.value=rama.tipo;
+
+        $('#editEdadMinima').selectpicker('val', rama.edad_minima);
+        $('#editEdadMaxima').selectpicker('val', rama.edad_maxima);
+        $('#editTipo').selectpicker('val', rama.tipo);
     }

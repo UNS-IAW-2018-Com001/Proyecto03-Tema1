@@ -116,7 +116,8 @@
         if(grupo.email)
             editEmail.value=grupo.email;
         
-         $('#editRamasHref').attr('href','/ramas/'+grupo._id);
+        $('#editReligionGrupo').selectpicker('val', grupo.religion);
+        $('#editRamasHref').attr('href','/ramas/'+grupo._id);
     }
     function viewUbicacion(index){
         var grupo=grupos[index];

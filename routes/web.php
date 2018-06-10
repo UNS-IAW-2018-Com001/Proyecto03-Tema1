@@ -10,9 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-    return View::make('index');
+    return redirect('/grupos');
 });
 Route::get('/grupos', 'gruposController@index');
 Route::get('/ramas/{grupo}', 'ramasController@index');

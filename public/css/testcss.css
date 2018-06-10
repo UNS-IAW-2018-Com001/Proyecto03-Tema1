@@ -119,6 +119,10 @@
     overflow: hidden;
     color: #000;
 }
+#login{
+    display: table-cell;
+    vertical-align: middle;
+}
 * {
     box-sizing: content-box;
 }
